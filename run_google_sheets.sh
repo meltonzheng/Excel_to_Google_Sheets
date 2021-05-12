@@ -1,0 +1,2 @@
+~/Scripts/Excel_to_Google_Sheets/excel2google/bin/python ~/Scripts/Excel_to_Google_Sheets/Excel_to_PKL.py
+~/Scripts/Excel_to_Google_Sheets/excel2google/bin/python ~/Scripts/Excel_to_Google_Sheets/Excel_To_Google_Sheets.py
