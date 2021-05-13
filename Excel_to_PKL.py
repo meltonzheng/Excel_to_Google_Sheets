@@ -30,7 +30,7 @@ _df2 = pd.read_excel(r"/home/meltonzheng/Dropbox/Afya Dashboard/Source for Afya 
 df2 = _df2.where(pd.notnull(_df2), None)
 
 months = []
-for L in df2[10][1:]:
+for L in df2[3][1:]:
     try:
         month = L[:str(L).find('/')]
         months.append(calendar.month_name[int(month)])
@@ -50,7 +50,7 @@ _df3 = pd.read_excel(r"/home/meltonzheng/Dropbox/eConsult Support and Follow-Up/
 df3 = _df3.where(pd.notnull(_df3), None)
 
 months = []
-for L in df3[10][1:]:
+for L in df3[2][1:]:
     try:
         month = L[:str(L).find('/')]
         months.append(calendar.month_name[int(month)])
